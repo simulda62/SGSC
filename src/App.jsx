@@ -53,6 +53,7 @@ function App() {
             <button
               type="button"
               className={language === 'ko' ? 'is-active' : ''}
+              aria-pressed={language === 'ko'}
               onClick={() => switchLanguage('ko')}
             >
               KR
@@ -60,6 +61,7 @@ function App() {
             <button
               type="button"
               className={language === 'en' ? 'is-active' : ''}
+              aria-pressed={language === 'en'}
               onClick={() => switchLanguage('en')}
             >
               EN
@@ -98,7 +100,7 @@ function App() {
             <SectionHeader eyebrow={t.capabilities.eyebrow} title={t.capabilities.title} />
             <div className="capability-grid">
               {t.capabilities.items.map((item, index) => (
-                <article className="capability-item" key={item.title}>
+                <article className="capability-item" key={`capability-${index}`}>
                   <span className="item-index">{String(index + 1).padStart(2, '0')}</span>
                   <h3>{item.title}</h3>
                   <p>{item.body}</p>
