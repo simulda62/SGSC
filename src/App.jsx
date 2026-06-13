@@ -165,8 +165,16 @@ function App() {
       </main>
 
       <footer className="site-footer">
-        <span className="brand-mark">SGSC</span>
-        <span>{t.footer}</span>
+        <div className="footer-brand">
+          <span className="brand-mark">SGSC</span>
+          <span>{t.footer}</span>
+        </div>
+        <nav className="footer-nav" aria-label="Footer navigation">
+          <a href="#capabilities">{t.nav.capabilities}</a>
+          <a href="#products">{t.nav.products}</a>
+          <a href="#about">{t.nav.about}</a>
+          <a href="#contact">{t.nav.contact}</a>
+        </nav>
       </footer>
     </div>
   );

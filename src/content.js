@@ -45,22 +45,22 @@ export const content = {
       body: '초기 제품 목록은 대표 제품군 형태로 구성되어 있으며, 실제 제품명과 이미지로 교체할 수 있습니다.',
       items: [
         {
-          name: 'Airframe Structure Module',
+          name: '기체 구조 모듈',
           category: '기체 구조',
           body: '항공 플랫폼의 구조 안정성과 장착성을 고려한 기체 구조 모듈입니다.',
         },
         {
-          name: 'Mission Platform Assembly',
+          name: '임무 플랫폼 조립체',
           category: '임무 플랫폼',
           body: '임무 장비 탑재와 플랫폼 인터페이스를 고려한 조립체입니다.',
         },
         {
-          name: 'UAV Platform Component',
+          name: '무인기 플랫폼 구성품',
           category: '무인기 구성품',
           body: '무인 항공 플랫폼에 적용 가능한 경량 구성품 제품군입니다.',
         },
         {
-          name: 'Aircraft Integration Kit',
+          name: '항공기 통합 키트',
           category: '통합 키트',
           body: '기체 적용과 현장 운용 편의성을 고려한 통합 지원 키트입니다.',
         },
@@ -72,9 +72,9 @@ export const content = {
       body:
         'SGSC는 항공 플랫폼 중심의 제품 개발과 제작 역량을 바탕으로 방산 환경에서 요구되는 신뢰성, 품질, 운용 지속성을 중요하게 다룹니다.',
       stats: [
-        { value: '4', label: 'Core Capability Areas' },
-        { value: '24/7', label: 'Mission Support Mindset' },
-        { value: 'KR/EN', label: 'Bilingual Communication' },
+        { value: '4', label: '핵심 역량 분야' },
+        { value: '24/7', label: '임무 지원 관점' },
+        { value: 'KR/EN', label: '국문/영문 커뮤니케이션' },
       ],
     },
     contact: {
@@ -84,7 +84,7 @@ export const content = {
       emailLabel: '이메일 문의',
       email: 'contact@sgsc.co.kr',
     },
-    footer: 'SGSC Aerospace & Defense. All rights reserved.',
+    footer: 'SGSC 항공/방산. All rights reserved.',
   },
   en: {
     nav: {
