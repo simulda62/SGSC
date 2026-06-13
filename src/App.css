@@ -603,9 +603,13 @@ p {
   }
 
   .hero-grid,
-  .about-grid,
-  .contact-panel {
+  .about-grid {
     grid-template-columns: 1fr;
+  }
+
+  .contact-panel {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .capability-grid,
